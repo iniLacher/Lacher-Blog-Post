@@ -1,0 +1,58 @@
+body {
+    background-color: #ececec;
+}
+
+a {
+    text-decoration: none;
+}
+/* #FFFFFF - Putih murni
+#F5F5F5 - Krem muda
+#ECECEC - Abu-abu muda
+#D3D3D3 - Abu-abu terang
+#A9A9A9 - Abu-abu
+#808080 - Abu-abu gelap
+#696969 - Abu-abu tua
+#333333 - Abu-abu hitam
+#000000 - Hitam murni */
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-registration input {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+.form-registration input:active {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
